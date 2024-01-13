@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAA;EACf,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,MAAM;EACd,KAAK,EAAE,IAAI;CAQd;;AAXD,AAII,mBAJe,CAIf,sBAAsB,CAAA;EAClB,OAAO,EAAE,QAAQ;EACjB,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,GAAG;CACrB",
+    "sources": [
+        "foree-service-form.scss"
+    ],
+    "names": [],
+    "file": "foree-service-form.css"
+}

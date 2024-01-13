@@ -1,0 +1,421 @@
+@import "../modules/base";
+.submit-property-main-section{
+    max-width: 950px;
+    margin: 0 auto;
+    height: auto;
+padding: 20px;
+    
+#heading {
+    text-transform: uppercase;
+    color: $color_theme;
+    font-weight: normal
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative
+}
+
+.form-card {
+    text-align: left
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+
+#msform input,
+#msform textarea {
+    padding: 8px 15px 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    background-color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px
+}
+
+#msform input:focus,
+#msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid $color_theme;
+    outline-width: 0
+}
+
+#msform .action-button {
+    width: 100px;
+    background: $color_theme;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 0px 10px 5px;
+    float: right
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    background-color: $color_theme
+}
+
+#msform .action-button-previous {
+    width: 100px;
+    background: #616161;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 0px;
+    float: right
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+    background-color: #000000
+}
+
+.card {
+    z-index: 0;
+    border: none;
+    position: relative
+}
+
+.fs-title {
+    font-size: 25px;
+    color: $color_theme;
+    margin-bottom: 15px;
+    font-weight: normal;
+    text-align: left
+}
+
+.purple-text {
+    color: $color_theme;
+    font-weight: normal
+}
+
+.steps {
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: right
+}
+
+.fieldlabels {
+    color: gray;
+    text-align: left
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey;
+    padding: 0!important;
+}
+
+#progressbar .active {
+    color: $color_theme
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 20%;
+    float: left;
+    position: relative;
+    font-weight: 400
+}
+
+#progressbar #account:before {
+    font-family: FontAwesome;
+    content: "\f13e"
+}
+
+#progressbar #personal:before {
+    font-family: FontAwesome;
+    content: "\f007"
+}
+
+#progressbar #payment:before {
+    font-family: FontAwesome;
+    content: "\f030"
+}
+
+#progressbar #confirm:before {
+    font-family: FontAwesome;
+    content: "\f00c"
+}
+#progressbar #media:before {
+    font-family: FontAwesome;
+    content: "\f00c"
+}
+#progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: $color_theme
+}
+
+.progress {
+    height: 20px
+}
+
+.progress-bar {
+    background-color: $color_theme
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+}
+.HTMLContainer {
+    width: 100%;
+    min-height: 300px;
+    border: dashed 2px #d8e3fa;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+  }
+
+  
+  .submit-inputbox{
+    width: 100%;
+    padding: 0 7px;
+    height: 35px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: gray;
+    background-color: white;
+  }
+
+  
+.tags-input-wrapper{
+    background: transparent;
+    padding: 10px;
+    border-radius: 4px;
+}
+.tags-input-wrapper input{
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 140px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.tags-input-wrapper .tag{
+    display: inline-block;
+    background-color: $color_theme;
+    color: white;
+    border-radius: 40px;
+    padding: 0px 3px 0px 7px;
+    margin-right: 5px;
+    margin-bottom:5px;
+}
+.tags-input-wrapper .tag a {
+    margin: 0 7px 3px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.media-area-wrapper{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+
+
+.box {
+    display: block;
+    max-width: 300px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    overflow: hidden;
+  }
+  
+  .upload-options {
+    position: relative;
+    height: 40px;
+    background-color: $color_theme;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    transition: background-color ease-in-out 150ms;
+  
+    & input {
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      z-index: -1;
+    }
+    & label {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      font-weight: 400;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      cursor: pointer;
+      overflow: hidden;
+      &::after {
+        content: 'Add'; 
+        position: absolute;
+        font-size: 2rem;
+        color: rgba(230, 230, 230, 1);
+        left: calc(50% - 1.25rem);
+        z-index: 0;
+      }
+      & span {
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        vertical-align: middle;
+        text-align: center;
+        &:hover i.material-icons {
+          color: lightgray;        
+        }
+      }
+    }
+  }
+  
+  
+  .js--image-preview {
+    height: 225px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-image: url('');
+    background-color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &::after {
+      content: "photo_size"; 
+      font-family: 'Material Icons';
+      position: absolute;
+      font-size: 2.5em;
+      color: rgba(230, 230, 230, 1);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 0;
+    }
+    &.js--no-default::after {
+      display: none;
+    }
+    &:nth-child(2) {
+      background-image: url('http://bastianandre.at/giphy.gif');
+    }
+  }
+  
+  i.material-icons {
+    transition: color 100ms ease-in-out;
+    font-size: 2.25em;
+    line-height: 55px;
+    color: white;
+    display: block;
+  }
+  
+  .drop {
+    display: block;
+    position: absolute;
+    background: transparentize($color_theme, .8);
+    border-radius: 100%;
+    transform:scale(0);
+  }
+  
+  .animate {
+    animation: ripple 0.4s linear;
+  }
+  
+  @keyframes ripple {
+      100% {opacity: 0; transform: scale(2.5);}
+  }
+
+
+  .quote-imgs-thumbs {
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    margin: 1.5rem 0;
+    padding: 0.75rem;
+  }
+  .quote-imgs-thumbs--hidden {
+    display: none;
+  }
+  .img-preview-thumb {
+    background: #fff;
+    border: 1px solid #777;
+    border-radius: 0.25rem;
+    box-shadow: 0.125rem 0.125rem 0.0625rem rgba(0, 0, 0, 0.12);
+    margin-right: 1rem;
+    width: 80px;
+    height: 80px;
+    padding: 0.25rem;
+    object-fit: contain;
+  }
+
+  .selectbtn{
+      background-color: white;
+      border: 1px solid $color_theme;
+      padding: 7px 25px;
+      color: $color_theme;
+  }

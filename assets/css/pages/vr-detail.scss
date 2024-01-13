@@ -1,0 +1,43 @@
+.vr-view-section{
+    width: 100%;
+    height: 70vh;
+    iframe{
+        width: 100%!important;
+        height: 100%!important;
+    }
+}
+.vr-detail-content-section{
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+    .vr-content-sec-inner-parent{
+        width: 100%;
+         .vr-description-wrapper{
+            width: 100%;
+            height: auto;
+            .text-wrapper{
+                width: 100%;
+                height: auto;
+            }
+         }
+         .vr-card-wrapper{
+             width: 100%;
+             height: auto;
+             background-color: whitesmoke;
+             padding: 20px;
+             border-radius: 10px;
+         }
+         .card-row-vr-wrapper{
+             width: 100%;
+             height: auto;
+             padding: 10px;
+             background-color: white;
+
+         }
+         .card-row-vr-wrapper p{
+             color: #333;
+
+         }
+        
+    }
+}

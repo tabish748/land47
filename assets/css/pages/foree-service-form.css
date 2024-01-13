@@ -1,0 +1,14 @@
+.foree-form-section {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.foree-form-section .foree-form-sbumit-btn {
+  padding: 8px 35px;
+  background-color: #34bf49;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+}
+/*# sourceMappingURL=foree-service-form.css.map */

@@ -1,0 +1,49 @@
+.vr-view-section {
+  width: 100%;
+  height: 70vh;
+}
+
+.vr-view-section iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.vr-detail-content-section {
+  width: 100%;
+  height: auto;
+  padding: 40px 20px;
+}
+
+.vr-detail-content-section .vr-content-sec-inner-parent {
+  width: 100%;
+}
+
+.vr-detail-content-section .vr-content-sec-inner-parent .vr-description-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.vr-detail-content-section .vr-content-sec-inner-parent .vr-description-wrapper .text-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.vr-detail-content-section .vr-content-sec-inner-parent .vr-card-wrapper {
+  width: 100%;
+  height: auto;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.vr-detail-content-section .vr-content-sec-inner-parent .card-row-vr-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+}
+
+.vr-detail-content-section .vr-content-sec-inner-parent .card-row-vr-wrapper p {
+  color: #333;
+}
+/*# sourceMappingURL=vr-detail.css.map */

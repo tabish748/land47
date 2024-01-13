@@ -1,0 +1,139 @@
+.dealers-agency-page-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.dealers-agency-main-section {
+  width: 100%;
+  height: auto;
+  padding: 40px 20px;
+}
+
+.dealers-agency-inner-parent {
+  width: 100%;
+  height: auto;
+}
+
+.dealers-agency-content-section {
+  width: 100%;
+  height: auto;
+}
+
+.dealer-agency-card-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.dealer-agency-card-section {
+  width: 100%;
+  height: auto;
+  background-color: #E8F9CD;
+  -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.dealer-agency-card-logo-section {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px;
+}
+
+.dealer-agency-card-logo-area {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: -35px;
+}
+
+.dealer-agency-card-logo-area img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.dealer-agency-card-content-section {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 15px;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 32px 32px 2px 2px;
+}
+
+.dealer-agency-card-content-area {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.dealer-agency-card-content-area h1 {
+  font-size: 22px;
+  line-height: 1.8;
+  font-weight: 600;
+  color: #2D2F2D;
+}
+
+.loc-style {
+  font-size: 14px;
+  list-style: 1.6;
+  font-weight: 500;
+  color: #A8A8A8;
+}
+
+.dealer-agency-card-content-area h2 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.7;
+  text-align: center;
+  color: #9E9E9E;
+  padding-top: 10px;
+}
+
+.dealer-agency-card-button-area {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.view-detail-btn {
+  background-color: #34BF49;
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.property-detail-ad-section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.property-detail-ad-section img {
+  width: 70%;
+  padding-bottom: 45px;
+  padding-top: 20px;
+  margin: 0 auto;
+  display: block;
+}
+/*# sourceMappingURL=dealers-agency.css.map */

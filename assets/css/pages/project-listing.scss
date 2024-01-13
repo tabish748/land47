@@ -1,0 +1,172 @@
+.project-listing-page-wrapper{
+width: 100%;
+height: auto;
+}
+
+.project-listing-main-section{
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+}
+
+.project-listing-inner-parent{
+    width: 100%;
+    height: auto;
+}
+
+.project-listing-content-section{
+    width: 100%;
+    height: auto;
+}
+
+.top-heading-area{
+    width: 100%;
+    height: auto;
+
+}
+
+.top-heading-area h1{
+font-size: 2.1rem;
+font-weight: 500;
+color: #4D4D4D;
+padding: 20px 0;
+}
+
+.project-listing-cards-list-section{
+    width: 100%;
+    height: auto;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.08);
+}
+
+.project-listing-cards-list-area{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.project-listing-cards-left-area{
+    width: 45%;
+    height: auto;
+    position: relative;
+}
+
+.project-listing-cards-left-area-img-section{
+    width: 100%;
+    height: 163px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-listing-cards-left-area-img-section img{
+    width: 49%;
+    object-fit: cover;
+}
+
+.project-listing-cards-left-area-logo-section{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+
+
+
+.project-listing-cards-left-area-logo-section img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-listing-cards-right-area{
+    width: 54%;
+    height: auto;
+}
+
+.project-listing-cards-right-content-area{
+    width: 100%;
+    height: auto;
+    padding: 0 15px;
+}
+
+.project-heading-area{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #414141;
+    margin-bottom: 4px;
+}
+
+.loc-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.project-listing-cards-right-content-detail-area{
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+}
+
+.project-listing-cards-right-content-detail-area span{
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.project-price{
+    color: #34bf49;
+    margin: 15px 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.project-listing-cards-right-content-button-area{
+    width: 100%;
+    height: auto;
+}
+
+.call-now-btn{
+    border: none;
+    padding: 10px 61px;
+    border-radius: 8px;
+    font-weight: 500;
+    letter-spacing: 1.9px;
+    background-color: #f3f3f3;
+}
+
+.call-now-btn:hover{
+    background-color: #dbdbdb;
+}
+.explore-btn{
+    color: white;
+    border: none;
+    padding: 10px 61px;
+    border-radius: 8px;
+    font-weight: 500;
+    letter-spacing: 1.9px;
+    background-color:  #31df49;
+    margin-left: 10px;
+}
+.explore-btn:hover{
+   background-color:#34bf49;
+}
+.property-detail-ad-section{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .property-detail-ad-section img{
+    width: 70%;
+    padding: 50px 0;
+    margin: 0 auto;
+      display: block;
+  
+  }

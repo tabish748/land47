@@ -1,0 +1,155 @@
+.sub-header-section {
+    width: 100%;
+    height: 65vh;
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .heading-wrapper {
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        z-index: 100;
+        .heading-part1 {
+            font-family: 'Allison', cursive;
+            font-size: 13vw;
+            color: #34bf49;
+            font-weight: 400;
+            text-shadow: 0px 10px 3px rgba(0, 0, 0, 0.25);
+            margin-left: 16%;
+        }
+        .heading-part2 {
+            font-size: 8vw;
+            top: 10vw;
+            // position: absolute;
+            left: 2vw;
+            color: #fff;
+            margin-top: -100px;
+        }
+    }
+}
+
+.sub-header-section::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+    // background-color: rgba(0,0,0,.5);
+    // background: linear-gradient(to top right,#34bf49,#fff);
+    // opacity: .15;
+    background: linear-gradient(to bottom, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.2) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#34bf49', endColorstr='#00000000', GradientType=0);
+    /* IE6-9 */
+}
+
+.foree-services-section {
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+    .inner-sec-container {
+        max-width: 1800px!important;
+    }
+    .foree-services-inner-parent {
+        width: 100%;
+        height: auto;
+        .services-sec {
+            width: 100%;
+            height: auto;
+            background-color: whitesmoke;
+            .listing-tabs-wrapper {
+                display: block!important;
+                .nav-item {
+                    margin: 3px !important;
+                }
+                .nav-link {
+                    background: white !important;
+                    border: 0 !important;
+                    border-radius: 0.25rem !important;
+                    padding: 7px 15px !important;
+                    border-radius: 2px !important;
+                    border: 2px solid #34bf49 !important;
+                    background-color: white !important;
+                    color: #000 !important;
+                    font-weight: 700 !important;
+                    font-size: 16px !important;
+                    position: relative;
+                }
+                .nav-link.active {
+                    background: #34bf49 !important;
+                    color: #fff !important;
+                }
+            }
+        }
+    }
+}
+
+.foree-service-list-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.listgrid-btns-wrapper {
+    margin: 0 auto;
+}
+
+.gallery-header-video {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ads-col-wrapper .ad-img-wrapper {
+    width: 75%!important;
+    margin: 20px auto!important;
+}
+
+.li-link {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.nav-shadow {
+    box-shadow: 6px 5px 9px 0px rgba(0, 0, 0, 0.21);
+    -webkit-box-shadow: 6px 5px 9px 0px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 6px 5px 9px 0px rgba(0, 0, 0, 0.21);
+}
+
+.activecheck {
+    color: #0099e5;
+}
+
+.featuredcheck {
+    color: gray;
+}
+
+.visited-prop-card-wrapper .content-area .tags-wrapper .tag1-area {
+    padding: 4px;
+}
+
+.visited-prop-card-wrapper .img-area {
+    border: 1px solid #dbdbdb;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.visited-prop-card-wrapper .img-area img {
+    object-fit: contain!important;
+}

@@ -1,0 +1,248 @@
+.blog-listing-page-wrapper{
+    width: 100%;
+    height: auto;
+    }
+    
+    .blog-listing-main-section{
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+    }
+    
+    .blog-listing-inner-parent{
+    width: 100%;
+    height: auto;
+    
+    }
+    
+    
+    
+    .blog-listing-content-section{
+        width: 100%;
+        height: auto;
+    }
+    
+
+    .tabs-wrapper{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        padding-bottom: 0;
+        border-bottom: 1px solid lightgray;
+    }
+    .tabs-wrapper .nav-pills .nav-link {
+            background: none;
+            border: 0;
+            border-radius: 0.25rem;
+            padding: 10px 80px;
+            border-radius: 2px;
+            border: 2px solid #34bf49;
+            background-color: white;
+            color: #000;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        .tabs-wrapper .nav-pills .nav-link.active{
+            background-color: #34bf49;
+            color:#fff;
+        }
+    
+        .item {
+            transform: translate3d(0, 0, 0);
+    overflow: hidden;
+    border-radius: 7px;
+transition: .3s;
+        }
+
+        .item:hover{
+            cursor: pointer;
+            box-shadow: 3px 1px 5px rgba(0,0,0,.25);
+        }
+
+
+        .blog-card-wrapper {
+            width: auto;
+            height: 100%;
+        }
+
+        .blog-card-wrapper .img-area{
+            width: 100%;
+            height: 150px;
+        }
+
+        .blog-card-wrapper .img-area img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .blog-card-wrapper .content-area{
+            width: 100%;
+            min-height: 265px;
+            height: auto;
+            background-color: white;
+            padding: 10px;
+        }
+
+        .blog-card-wrapper .content-area h2{
+            font-size: 17px;
+            text-align: left;
+
+        }
+
+        .blog-card-wrapper .content-area .post-date{
+            color: #0099e5;
+            font-size: 13px;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+        .blog-card-wrapper .content-area p{
+            font-size: 14px;
+            margin-top: 15px;
+        }
+
+        .blog-card-wrapper .content-area button{
+            margin-top: 15px;
+            border: none;
+            padding: 5px 15px;
+            font-size: 14px;
+            color: white;
+            background-color: #34bf49;
+            border-radius: 2px;
+            box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.25);
+        }
+        
+
+
+     // ******************************* Grand Launch section Start****************************
+
+      .grand-launch-section-area{
+          width: 100%;
+          height: auto;
+          display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    z-index: 100000000;
+    bottom: 0;
+    right: 4%;
+      }
+
+      .grand-launch-small-section{
+          width: 30%;
+          height: auto;
+          background-color: #34bf49;
+          padding: 3px 30px;
+          border-top-left-radius: 25px;
+          border-top-right-radius: 25px;
+          background-size: contain;
+          background-repeat: no-repeat;
+          transition: all .3s ease-in-out;
+        
+      }
+
+      .grand-launch-small-section img{
+          width: 100%;
+          object-fit: cover;
+          margin-top: -25px;
+
+      }
+
+
+      .grand-launch-small-section .up-arrow{
+      position: absolute;
+    top: 30%;
+    transform: rotate(-92deg);
+    color: white;
+    right: 24px;
+    font-size: 19px;
+    cursor: pointer;
+ 
+      }
+
+      .grand-launch-small-section .down-arrow{
+        position: absolute;
+        top: 6%;
+        transform: rotate(85deg);
+        color: white;
+        right: 2%;
+        font-size: 20px;
+        cursor: pointer;
+        display: none;
+     
+      }
+
+      // ******************************* Grand Launch section End****************************
+
+
+      // *************************  Cookies section Start *************************************
+
+      .cookies-section-area{
+          width: 25%;
+          height: auto;
+          background-color: black;
+          padding: 10px 15px;
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          z-index: 100000000000000000000;
+      
+        display: none;
+      
+      }
+
+      .cookies-section-top-area{
+          width: 100%;
+          height: auto;
+
+          display: flex;
+          justify-content: space-between;
+      
+      }
+
+      .cookies-heading{
+          font-size: 24px;
+          color: #fff;
+      }
+
+
+      .cookies-section-top-area img{
+        width: 15px;
+        height: 15px;
+        object-fit: cover;
+        margin-top: 6px;
+        cursor: pointer;
+      }
+
+      .cookies-section-content-area{
+          width: 100%;
+          height: auto;
+      }
+
+      .cookies-detail{
+      margin: 10px 0;
+      text-align: justify;
+      font-size: 14px;
+      color: white;
+      line-height: 1.7;
+      }
+
+      .cookies-btn{
+          background-color: #34bf49;
+          color: #fff;
+          width: 100%;
+    padding: 2px 0;
+    border-radius: 8px;
+    border: none;
+
+      }
+
+
+
+
+
+
+
+
+      // *************************  Cookies section End *************************************
